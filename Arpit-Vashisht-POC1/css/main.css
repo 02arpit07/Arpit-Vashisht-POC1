@@ -1,0 +1,465 @@
+@font-face {
+  font-family: "proxima";
+  src: url("/fonts/Proxima\ Nova\ Bold.otf");
+}
+@font-face {
+  font-family: "proxima-2";
+  src: url("/fonts/FontsFree-Net-Proxima-Nova-Light.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* max-width: 1170px ; */
+  /* background-color: white; */
+}
+.partition-1 {
+  margin-bottom: 24px;
+}
+.contentt {
+  max-width: 1170px;
+  margin: auto;
+}
+.logo {
+  cursor: pointer;
+  width: 160px;
+}
+.bg-light {
+  background-color: white !important;
+}
+.my-nav a {
+  font-family: "proxima", sans-serif;
+  font-size: 16px;
+  color: #22262a;
+  text-decoration: none;
+}
+.nav-item img {
+  padding-right: 15px;
+  padding-bottom: 5px;
+  height: 25px;
+}
+.nav-pad {
+  padding: 10px 30px;
+}
+.total-money-nav {
+  opacity: 0.4;
+  font-weight: 100 !important;
+}
+.recentRoute {
+  color: #33a0ff;
+}
+.font-style-para {
+  font-size: 14px;
+  font-family: "proxima", sans-serif;
+  padding-left: 10px;
+}
+.route-guide {
+  /* background-color: whitesmoke; */
+  max-height: 90px;
+}
+.route-guide-style {
+  padding: 30px 0px;
+}
+#categ-container {
+  background-color: #f6f7f8;
+  /* margin-left:10px; */
+  padding: 20px;
+  border-radius: 6px;
+  max-width: 350px;
+  min-width: 350px;
+  margin-right: 24px;
+}
+#categ-container li {
+  padding-bottom: 20px;
+}
+.heading-Categ {
+  color: #222628;
+  font-size: 18px;
+  font-family: "proxima";
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+#categ-container ul {
+  text-decoration: none;
+  list-style: none;
+}
+#categ-container .active {
+  color: #33a0ff;
+}
+#categ-container .categ-item:hover {
+  color: #33a0ff;
+  transition: all 1s;
+}
+#categ-container a {
+  font-family: "proxima", sans-serif;
+  color: #222628;
+  font-size: 16px;
+  cursor: pointer;
+}
+.abc {
+  padding: 10px 80px;
+}
+#my-navbar {
+  text-align: center;
+}
+
+/* Carousel Styling */
+
+/* .caraousel-overlay{
+      background-color: #33A0FF;
+      width: 100%;
+      height: auto;
+      color: white;
+  } */
+.testimonial-caption {
+  background-color: #33a0ff;
+}
+.green-bg {
+  background-color: darkcyan;
+}
+.red-bg {
+  background-color: red;
+}
+.testimonial-caption h2 {
+  color: white;
+  font-family: "proxima-2", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.testimonial-caption p {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-left: 50px;
+  /* padding-top: 50px; */
+}
+.testimonial-caption a {
+  color: white !important;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 50px;
+  padding-top: 20px;
+  font-family: "proxima", sans-serif;
+  position: relative;
+}
+.testimonial-caption a::after {
+  /* color: white !important;
+      font-size: 20px;
+      font-weight: 700;
+      padding-top: 10px;
+      padding-left: 30px;
+      font-family: "proxima",sans-serif;
+      position: relative; */
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  width: 100px;
+  height: 3px;
+  background-color: white;
+  margin-left: -30px;
+}
+
+/* Footer  */
+.logo-footer {
+  cursor: pointer;
+  width: 160px;
+  padding-bottom: 20px;
+}
+
+.footer-spacing {
+  padding-right: 17px;
+  padding-top: 40px;
+  text-align: start;
+}
+.footer-spacing-pad-top {
+  padding-top: 70px;
+}
+.footer-spacing h5 {
+  color: #22262a;
+  font-size: 24px;
+  font-family: "proxima", sans-serif;
+  opacity: 0.8;
+  padding-bottom: 20px;
+}
+.footer-spacing p {
+  color: #22262a;
+  font-size: 16px;
+  font-family: "proxima-2", sans-serif;
+  opacity: 1;
+  font-weight: 900;
+  line-height: 25px;
+}
+.social-icons {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+}
+.social-icons .img1 {
+  width: 11px;
+  height: auto;
+  margin-right: 40px;
+}
+.social-icons .img2 {
+  width: 23px;
+  height: auto;
+}
+.color-lightgray {
+  color: #c1c8ce;
+  font-family: "proxima", sans-serif;
+}
+.img-footer-cards {
+  margin-right: 8px;
+}
+
+/* Partition-2 */
+#price-container {
+  background-color: #f6f7f8;
+  /* margin-left:10px; */
+  padding: 20px;
+  border-radius: 6px;
+  max-width: 350px;
+  min-width: 350px;
+  margin-right: 24px;
+}
+.fontwt-bold {
+  font-weight: 600;
+  font-family: "proxima", sans-serif;
+}
+.input-min-max,
+.input-min-max:focus {
+  background-color: white;
+  border: 0px solid;
+  height: 30px;
+  width: 100px;
+  color: rgb(95, 95, 95);
+  border-radius: 6px;
+}
+.input-min-max::placeholder {
+  color: #ccc;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+#colors-container {
+  background-color: #f6f7f8;
+  /* margin-left:10px; */
+  padding: 20px;
+  border-radius: 6px;
+  max-width: 350px;
+  min-width: 350px;
+  margin-right: 24px;
+  margin-top: 24px;
+}
+
+.rounded-img {
+  height: 27px;
+  width: 27px;
+  border-radius: 50%;
+  margin-right: 24px;
+}
+.img-active-1 {
+  border: 2px solid #33a0ff;
+  padding: 2px;
+}
+
+#brand-container {
+  background-color: #f6f7f8;
+  /* margin-left:10px; */
+  padding: 20px;
+  border-radius: 6px;
+  /* max-width: 350px; */
+  min-width: 350px;
+  margin-right: 24px;
+  margin-top: 24px;
+  font-family: "proxima", sans-serif;
+}
+
+.brand-align {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.active-1 {
+  color: #33a0ff;
+}
+#brand-container .brand-item:hover {
+  color: #33a0ff;
+  transition: all 1s;
+}
+
+#More-container {
+  background-color: #f6f7f8;
+  /* margin-left:10px; */
+  padding: 20px;
+  border-radius: 6px;
+  /* max-width: 350px; */
+  min-width: 350px;
+  margin-right: 24px;
+  margin-top: 24px;
+  justify-content: center;
+  align-items: center;
+}
+#More-container a {
+  margin-bottom: 0px;
+  text-decoration: none;
+  font-style: normal;
+  color: #22262a;
+  font-weight: 600;
+  font-family: "proxima", sans-serif;
+}
+#More-container a:hover {
+  font-family: "proxima", sans-serif;
+  color: #33a0ff;
+  transition: all 1s;
+  cursor: pointer;
+}
+#product-description-bar span {
+  padding-right: 48px;
+}
+#product-description-bar select {
+  background-color: #f6f7f8;
+  padding: 8px 45px 8px 2px;
+  font-family: "proxima-2", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 2px;
+  border: 2px solid gainsboro;
+  /* outline: #C1C8CE; */
+}
+#product-description-bar p {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#product-description-bar {
+  background-color: #f6f7f8;
+  /* margin-left:10px; */
+  padding: 20px;
+  border-radius: 6px;
+  /* max-width: 350px; */
+  /* max-width: 765px; */
+  min-width: 494px;
+  margin-right: 24px;
+  font-family: "proxima-2", sans-serif;
+  font-size: 16px;
+  padding-bottom: 0px;
+  font-weight: 600;
+}
+.icon-style {
+  font-size: 30px;
+  margin-left: auto;
+}
+.prod-tile-align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+  margin-top: 24px;
+  border: 3px solid #f6f7f8;
+  min-width: 225px;
+  max-width: 225px;
+  height: auto;
+}
+.image-pad-product {
+  padding: 20px 10px;
+}
+.prod-tile-align p {
+  font-family: "proxima", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+.img-rating {
+  height: 27px;
+  width: 84px;
+  text-align: right;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+.actual-price {
+  text-decoration: line-through;
+  color: gainsboro;
+}
+.discounted-price {
+  color: rgb(243, 101, 101);
+}
+.product-container {
+  display: flex;
+  overflow-x: hidden;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.product-alignment {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+}
+@media only screen and (max-width: 1140px) {
+  /* For desktop: */
+  #product-description-bar {
+    margin-top: 24px;
+  }
+  .contentt {
+    /* max-width: 600px; */
+    margin: auto;
+    overflow-y: hidden;
+  }
+  .prod-tile-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+    margin-top: 24px;
+    margin-left: 24px;
+    border: 3px solid #f6f7f8;
+    min-width: 225px;
+    /* max-width: 225px; */
+    height: auto;
+  }
+  .carousel-top-24 {
+    margin-top: 24px;
+  }
+}
+
+.bg-pager {
+  margin-top: 24px;
+  background-color: #f6f7f8;
+  place-content: center;
+}
+.page-link {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #222628;
+  background-color: #f6f7f8;
+  border: 1px solid #f6f7f8;
+  font-family: "proxima", sans-serif;
+}
+.page-link:hover {
+  font-family: "proxima", sans-serif;
+  color: white;
+  text-decoration: none;
+  background-color: #222628;
+  border-color: #222628;
+}
+
+#pager-outer .activePager {
+  font-family: "proxima", sans-serif;
+  color: white !important;
+  text-decoration: none !important;
+  background-color: #222628 !important;
+  border-color: #222628 !important;
+}

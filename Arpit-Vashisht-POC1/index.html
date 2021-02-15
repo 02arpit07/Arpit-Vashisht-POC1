@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beep | Ecommerce Platform</title>
+
+  <!-- Style Libraries -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+</head>
+
+<body>
+  <div class="contentt">
+    <nav class="navbar navbar-expand-lg my-nav bg-light navbar-light wow bounce">
+      <a href="#" class="navbar-brand">
+        <img class="logo" src="images/beep-1@2x.png" alt="logo" />
+      </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#my-navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="my-navbar">
+        <ul class="navbar-nav ml-auto">
+          <!-- <li class="nav-item nav-pad">
+            <a href="#"><img src="images/Icon material-notifications-none.png" alt=""></a>
+          </li> -->
+          <li class="nav-item nav-pad">
+            <a href="#"><img src="images/profile_close_2.png" alt="" />My Profile
+            </a>
+          </li>
+          <li class="nav-item nav-pad">
+            <a href="#"><img src="images/bag_3.png" alt="" />0 Items &nbsp;&nbsp;<span class="total-money-nav">
+                $0.00</span></a>
+          </li>
+          <li class="nav-item nav-pad">
+            <a href="#"><img src="images/search-icon.png" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="route-guide">
+      <div class="container-fluid">
+        <div class="row route-guide-responsive">
+          <div class="col-xl-12 route-guide-style wow bounceIn">
+            <p class="font-style-para">
+              <span class="recentRoute">Home </span>/
+              <span id="changesLatest">Accesories</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="partition-1">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-xl-3 col-md-8 wow fadeInLeft" id="categ-container">
+            <div>
+              <p class="heading-Categ">ALL CATEGORIES</p>
+              <ul>
+                <li>
+                  <a class="categ-item active" id="1" onclick="changeLatestPage(this.id)">Accesories</a>
+                </li>
+                <li>
+                  <a class="categ-item" id="2" onclick="changeLatestPage(this.id)">Cables & Docks</a>
+                </li>
+                <li>
+                  <a class="categ-item" id="3" onclick="changeLatestPage(this.id)">Cases & Films</a>
+                </li>
+                <li>
+                  <a class="categ-item" id="4" onclick="changeLatestPage(this.id)">Charging Devices</a>
+                </li>
+                <li>
+                  <a class="categ-item" id="5" onclick="changeLatestPage(this.id)">Connected Homes</a>
+                </li>
+                <li>
+                  <a class="categ-item" id="6" onclick="changeLatestPage(this.id)">Headphones</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-8 col-md-12 col- carousel-top-24 wow fadeInRight" style="padding-left: 0px">
+            <div id="carousel-testimonials" class="carousel slide width-790" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-testimonials" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-testimonials" data-slide-to="1"></li>
+                <li data-target="#carousel-testimonials" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="testimonial-caption">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h2>iPhone 8</h2>
+                        <p>Performance and design. Taken right to the edge</p>
+                        <a class="btn">SHOP NOW</a>
+                      </div>
+                      <div class="col-md-3 offset-md-1">
+                        <img src="images/iPhone6s_discover_desktop_08_iOS9@2x.png" alt="Carousal-Image"
+                          height="380px" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="testimonial-caption green-bg">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h2>iPhone 8</h2>
+                        <p>Performance and design. Taken right to the edge</p>
+                        <a class="btn">SHOP NOW</a>
+                      </div>
+                      <div class="col-md-3 offset-md-1">
+                        <img src="images/iPhone6s_discover_desktop_08_iOS9@2x.png" alt="Carousal-Image"
+                          height="380px" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="testimonial-caption red-bg">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h2>iPhone 8</h2>
+                        <p>Performance and design. Taken right to the edge</p>
+                        <a class="btn">SHOP NOW</a>
+                      </div>
+                      <div class="col-md-3 offset-md-1">
+                        <img src="images/iPhone6s_discover_desktop_08_iOS9@2x.png" alt="Carousal-Image"
+                          height="380px" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="partition-2">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <!-- Left Div  -->
+          <div class="left-overlay wow fadeInLeft">
+            <div class="responsive-sidemenues">
+              <div class="col-xl-3 col-sm-12" id="price-container">
+                <div>
+                  <p class="heading-Categ">PRICES</p>
+                  <div style="display: flex">
+                    <div>
+                      <p class="fontwt-bold">Min</p>
+                      <input type="text" placeholder="$499" class="input-min-max" id="min" required />
+                    </div>
+                    <div style="padding: 35px 45px 0px 46px">
+                      <p class="fontwt-bold">_</p>
+                    </div>
+                    <div>
+                      <p class="fontwt-bold">Max</p>
+                      <input type="text" placeholder="$499" class="input-min-max" id="max" onblur="validateMinMax()"
+                        required />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-12" id="colors-container">
+                <div>
+                  <p class="heading-Categ">COLOR</p>
+                  <div style="display: flex" id="xyz">
+                    <img class="rounded-img img-active-1" src="images/blue.PNG" alt="clr-blue" />
+                    <img class="rounded-img" src="images/red.PNG" />
+                    <img class="rounded-img" src="images/black.PNG" alt="clr-red" />
+                    <img class="rounded-img" src="images/yellow.PNG" alt="clr-yellow" />
+                    <img class="rounded-img" src="images/pink.PNG" id="img-func" alt="clr-pink" />
+                    <img class="rounded-img" src="images/beige.PNG" alt="clr-beige" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-6" id="brand-container">
+                <div>
+                  <p class="heading-Categ">BRAND</p>
+                  <div class="brand-align brand-item active-1">
+                    <p>Apple</p>
+                    <p>99</p>
+                  </div>
+                  <div class="brand-align brand-item">
+                    <p>Beats</p>
+                    <p>99</p>
+                  </div>
+                  <div class="brand-align brand-item">
+                    <p>Samsung</p>
+                    <p>99</p>
+                  </div>
+                  <div class="brand-align brand-item">
+                    <p>Siemens</p>
+                    <p>99</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-6" id="More-container">
+                <div style="text-align: center">
+                  <a href="#">MORE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Div -->
+          <div class="col-xl-8 wow fadeInRight" style="padding-left: 0px; align-items: center">
+            <div class="col-md-12 col-sm-12 col-12" id="product-description-bar">
+              <div style="display: flex; flex-direction: row">
+                <span>
+                  <p>12 Items</p>
+                </span>
+                <span>
+                  <label for="categg">Sort By</label>
+                  <select id="categg" name="categg">
+                    <option value="name">Name</option>
+                    <option value="price">Price</option>
+                    <option value="rating">Rating</option>
+                  </select>
+                </span>
+                <span>
+                  <label for="page">Show</label>
+                  <select id="page" name="page">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                  </select>
+                </span>
+                <i class="fa fa-bars" aria-hidden="true" style="font-size: 30px; margin-left: auto"></i>
+              </div>
+            </div>
+            <div class="product-container">
+              <div class="col-xl-3 col-lg-3 prod-tile-align">
+                <div class="image-pad-product">
+                  <img src="images/Rectangle5.png" alt="Product-Image" />
+                  <hr />
+                </div>
+                <div class="product-alignment">
+                  <p>Apple Macbook Pro</p>
+                  <img src="images/rating.PNG" class="img-rating" alt="" />
+                  <p class="discounted-price">
+                    $499 <span class="actual-price">$599</span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 prod-tile-align">
+                <div class="image-pad-product">
+                  <img src="images/Rectangle5.png" alt="Product-Image" />
+                  <hr />
+                </div>
+                <div class="product-alignment">
+                  <p>Apple Macbook Pro</p>
+                  <img src="images/rating.PNG" class="img-rating" alt="" />
+                  <p class="discounted-price">
+                    $499 <span class="actual-price">$599</span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 prod-tile-align">
+                <div class="image-pad-product">
+                  <img src="images/Rectangle5.png" alt="Product-Image" />
+                  <hr />
+                </div>
+                <div class="product-alignment">
+                  <p>Apple Macbook Pro</p>
+                  <img src="images/rating.PNG" class="img-rating" alt="" />
+                  <p class="discounted-price">
+                    $499 <span class="actual-price">$599</span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 prod-tile-align">
+                <div class="image-pad-product">
+                  <img src="images/Rectangle5.png" alt="Product-Image" />
+                  <hr />
+                </div>
+                <div class="product-alignment">
+                  <p>Apple Macbook Pro</p>
+                  <img src="images/rating.PNG" class="img-rating" alt="" />
+                  <p class="discounted-price">
+                    $499 <span class="actual-price">$599</span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 prod-tile-align">
+                <div class="image-pad-product">
+                  <img src="images/Rectangle5.png" alt="Product-Image" />
+                  <hr />
+                </div>
+                <div class="product-alignment">
+                  <p>Apple Macbook Pro</p>
+                  <img src="images/rating.PNG" class="img-rating" alt="" />
+                  <p class="discounted-price">
+                    $499 <span class="actual-price">$599</span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 prod-tile-align">
+                <div class="image-pad-product">
+                  <img src="images/Rectangle5.png" alt="Product-Image" />
+                  <hr />
+                </div>
+                <div class="product-alignment">
+                  <p>Apple Macbook Pro</p>
+                  <img src="images/rating.PNG" class="img-rating" alt="" />
+                  <p class="discounted-price">
+                    $499 <span class="actual-price">$599</span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 prod-tile-align">
+                <div class="image-pad-product">
+                  <img src="images/Rectangle5.png" alt="Product-Image" />
+                  <hr />
+                </div>
+                <div class="product-alignment">
+                  <p>Apple Macbook Pro</p>
+                  <img src="images/rating.PNG" class="img-rating" alt="" />
+                  <p class="discounted-price">
+                    $499 <span class="actual-price">$599</span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 prod-tile-align">
+                <div class="image-pad-product">
+                  <img src="images/Rectangle5.png" alt="Product-Image" />
+                  <hr />
+                </div>
+                <div class="product-alignment">
+                  <p>Apple Macbook Pro</p>
+                  <img src="images/rating.PNG" class="img-rating" alt="" />
+                  <p class="discounted-price">
+                    $499 <span class="actual-price">$599</span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 prod-tile-align">
+                <div class="image-pad-product">
+                  <img src="images/Rectangle5.png" alt="Product-Image" />
+                  <hr />
+                </div>
+                <div class="product-alignment">
+                  <p>Apple Macbook Pro</p>
+                  <img src="images/rating.PNG" class="img-rating" alt="" />
+                  <p class="discounted-price">
+                    $499 <span class="actual-price">$599</span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 prod-tile-align">
+                <div class="image-pad-product">
+                  <img src="images/Rectangle5.png" alt="Product-Image" />
+                  <hr />
+                </div>
+                <div class="product-alignment">
+                  <p>Apple Macbook Pro</p>
+                  <img src="images/rating.PNG" class="img-rating" alt="" />
+                  <p class="discounted-price">
+                    $499 <span class="actual-price">$599</span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 prod-tile-align">
+                <div class="image-pad-product">
+                  <img src="images/Rectangle5.png" alt="Product-Image" />
+                  <hr />
+                </div>
+                <div class="product-alignment">
+                  <p>Apple Macbook Pro</p>
+                  <img src="images/rating.PNG" class="img-rating" alt="" />
+                  <p class="discounted-price">
+                    $499 <span class="actual-price">$599</span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 prod-tile-align">
+                <div class="image-pad-product">
+                  <img src="images/Rectangle5.png" alt="Product-Image" />
+                  <hr />
+                </div>
+                <div class="product-alignment">
+                  <p>Apple Macbook Pro</p>
+                  <img src="images/rating.PNG" class="img-rating" alt="" />
+                  <p class="discounted-price">
+                    $499 <span class="actual-price">$599</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12" id="pager-outer">
+                <ul class="pagination pagination-lg bg-pager">
+                  <li class="page-item">
+                    <a class="page-link" href="#">1</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link activePager" href="#">3</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">4</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">5</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <div class="footer-section wow bounce">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-md-4 footer-spacing">
+            <img src="images/beep@2x.png" class="logo-footer" alt="logo-footer" />
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s when an unknown printer
+            </p>
+          </div>
+          <div class="col-md-4 footer-spacing footer-spacing-pad-top">
+            <h5>Follow Us</h5>
+            <p>
+              Since the 1500s when an unknown printer took a galley of type
+              and scrambled
+            </p>
+            <div class="social-icons">
+              <img class="img1" src="images/facebook.png" alt="" />
+              <img class="img2" src="images/twitter.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4 footer-spacing footer-spacing-pad-top">
+            <h5>Contact Us</h5>
+            <p>My Company , 4578 Marmora Road, Glasgow D04 89GR</p>
+            <p>Call us now: 0123-456-789</p>
+            <p>Email:support@support@whatever.com</p>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-md-4">
+            <p class="color-lightgray">
+              <span>&#169;</span> 2021 Ecommerce site by www.beep.com
+            </p>
+          </div>
+          <div class="col-md-4 offset-md-4">
+            <div style="float: right">
+              <img class="img-footer-cards" src="images/Western-union.png" alt="" />
+              <img class="img-footer-cards" src="images/Group 19.png" alt="" />
+              <img class="img-footer-cards" src="images/Paypal.png" alt="" />
+              <img class="img-footer-cards" src="images/Shape 328.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Jquery Libraries -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  <script src="js/wow.min.js"></script>
+</body>
+
+</html>

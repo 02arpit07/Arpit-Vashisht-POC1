@@ -1,0 +1,29 @@
+
+@media only screen and (max-width: 576px){
+    .contentt{
+        max-width: 100%;
+        min-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width:768px){
+    .contentt{
+        max-width: 100%;
+        min-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width:1139px){
+    .contentt{
+        max-width: 100%;
+        min-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /* .responsive-sidemenues{
+        display: flex;
+        flex-wrap: wrap;
+    } */
+}
